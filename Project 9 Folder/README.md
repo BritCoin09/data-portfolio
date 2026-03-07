@@ -127,13 +127,12 @@ Region 1 is the only region that meets OilyGiant’s strict 2.5% maximum risk�
 
 📁 Project Structure
 
-Project_9_OilyGiant/
-│
-├── Project_9.ipynb        — Full analysis, modeling, and bootstrapping  
-├── geo_data_0.csv         — Region 0 dataset  
-├── geo_data_1.csv         — Region 1 dataset  
-├── geo_data_2.csv         — Region 2 dataset  
-└── README.md              — Project documentation  
+- [Project_9.ipynb](./Project_9.ipynb) — Full analysis, modeling, and bootstrapping  
+- [geo_data_0.csv](./geo_data_0.csv) — Region 0 dataset  
+- [geo_data_1.csv](./geo_data_1.csv) — Region 1 dataset  
+- [geo_data_2.csv](./geo_data_2.csv) — Region 2 dataset  
+- [README.md](./README.md) — Project documentation  
+
              
 
 🛠️ Technologies Used
