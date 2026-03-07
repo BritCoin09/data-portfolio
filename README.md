@@ -5,4 +5,12 @@ This repository contains all of my TripleTen data science projects, organized cl
 
 ## 📁 Projects
 
- **Projects coming soon...**
+### 🟣 Project 13 — Time Series Forecasting (Sweet Lift Taxi)
+Forecasting hourly taxi demand using lag features, rolling statistics, and multiple ML models.  
+**Final RMSE:** 36.29 (Linear Regression)  
+🔗 **Project Folder:** [Project 13 Folder](./Project%2013%20Folder)
+
+
+---
+
+More projects coming soon!
