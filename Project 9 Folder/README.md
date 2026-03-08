@@ -1,4 +1,4 @@
-🛢️ OilyGiant — Oil Reserve Prediction & Investment Risk Analysis
+# 🛢️ OilyGiant — Oil Reserve Prediction & Investment Risk Analysis
 
 Project 9 — Linear Regression, Profit Modeling, and Bootstrapping
 
@@ -125,9 +125,27 @@ It provides:
 
 Region 1 is the only region that meets OilyGiant’s strict 2.5% maximum risk‑of‑loss requirement, confirming that it satisfies both the profitability and risk criteria for investment.
 
+💬 Summary
+Region 1 is the safest, most stable, and most financially responsible choice for OilyGiant’s $100M investment.
+This project demonstrates end‑to‑end data science workflow: exploration, modeling, evaluation, risk analysis, and business‑driven decision‑making.
+
+🛠️ Technologies Used
+
+- Python
+
+- Pandas
+
+- NumPy
+
+- Scikit‑learn
+
+- Matplotlib
+
+- Bootstrapping (custom implementation)
+
 📁 Project Structure
 
-- [Project_9.ipynb](./Project_9.ipynb) — Full analysis, modeling, and bootstrapping  
+- [Project 9.ipynb](Project%209.ipynb) — Full analysis, modeling, and bootstrapping  
 - [geo_data_0.csv](./geo_data_0.csv) — Region 0 dataset  
 - [geo_data_1.csv](./geo_data_1.csv) — Region 1 dataset  
 - [geo_data_2.csv](./geo_data_2.csv) — Region 2 dataset  
@@ -135,19 +153,6 @@ Region 1 is the only region that meets OilyGiant’s strict 2.5% maximum risk�
 
              
 
-🛠️ Technologies Used
-Python
 
-Pandas
 
-NumPy
 
-Scikit‑learn
-
-Matplotlib
-
-Bootstrapping (custom implementation)
-
-💬 Summary
-Region 1 is the safest, most stable, and most financially responsible choice for OilyGiant’s $100M investment.
-This project demonstrates end‑to‑end data science workflow: exploration, modeling, evaluation, risk analysis, and business‑driven decision‑making.

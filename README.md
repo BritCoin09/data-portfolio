@@ -15,5 +15,10 @@ Predicting oil well reserves using linear regression, estimating profit, and per
 **Final Recommendation:** Region 1 — lowest risk (1.5%) and most stable profit.
 🔗 **Project Folder:** [Project 9 Folder](./Project%209%20Folder)
 
+### 🟣 Project 5 — Video Game Sales Analysis
+Analyzing global video game sales to identify patterns in platform performance, genre popularity, regional preferences, and the impact of critic/user reviews on commercial success.
+Key Insight: Critic scores show a moderate positive relationship with sales, while user scores show almost none.
+🔗 Project Folder: [Project 5 Folder](./Project%205%20Folder)
+
 
 More projects coming soon!
