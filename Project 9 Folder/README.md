@@ -130,17 +130,18 @@ Region 1 is the safest, most stable, and most financially responsible choice for
 This project demonstrates end‑to‑end data science workflow: exploration, modeling, evaluation, risk analysis, and business‑driven decision‑making.
 
 🛠️ Technologies Used
-Python
 
-Pandas
+- Python
 
-NumPy
+- Pandas
 
-Scikit‑learn
+- NumPy
 
-Matplotlib
+- Scikit‑learn
 
-Bootstrapping (custom implementation)
+- Matplotlib
+
+- Bootstrapping (custom implementation)
 
 📁 Project Structure
 
