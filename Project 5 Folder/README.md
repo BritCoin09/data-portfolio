@@ -1,4 +1,4 @@
-🎮 Video Game Sales Analysis
+# 🎮 Video Game Sales Analysis
 
 📌 Project Overview
 
@@ -111,5 +111,6 @@ SciPy
 - [Project 5.ipynb](Project%205.ipynb) — Full analysis notebook  
 - [games.csv](games.csv) — Dataset used for this project  
 - [README.md](README.md) — Project documentation  
+
 
 
