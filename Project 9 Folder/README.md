@@ -1,4 +1,4 @@
-🛢️ OilyGiant — Oil Reserve Prediction & Investment Risk Analysis
+# 🛢️ OilyGiant — Oil Reserve Prediction & Investment Risk Analysis
 
 Project 9 — Linear Regression, Profit Modeling, and Bootstrapping
 
