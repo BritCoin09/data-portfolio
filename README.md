@@ -20,5 +20,9 @@ Analyzing global video game sales to identify patterns in platform performance, 
 Key Insight: Critic scores show a moderate positive relationship with sales, while user scores show almost none.
 🔗 Project Folder: [Project 5 Folder](./Project%205%20Folder)
 
+### 🟣 Project 3 — Customer Churn Prediction (Megaline Telecom)
+Predicting customer churn for a telecom company using classification models, feature engineering, and imbalanced data techniques.
+**Final Model:** Random Forest (best performance)
+Business Impact: Identified high‑risk customers and key churn drivers to support targeted retention strategies.
+🔗 Project Folder: [Project 3 Folder](./Project%203%20Folder)
 
-More projects coming soon!
