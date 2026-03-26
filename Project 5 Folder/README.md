@@ -108,9 +108,5 @@ SciPy
 
 ### 📁 Project Files
 
-- [Project 5.ipynb](Project%205.ipynb) — Full analysis notebook  
-- [games.csv](games.csv) — Dataset used for this project  
+- [Project 5.ipynb](Project%205.ipynb) — Full analysis notebook
 - [README.md](README.md) — Project documentation  
-
-
-
