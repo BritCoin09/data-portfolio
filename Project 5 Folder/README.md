@@ -82,15 +82,15 @@ To understand how reviews affect sales on a modern platform, I analyzed PS4 game
 
 ### 🧠 Conclusions
 
-The video game market experienced a major boom from 2005–2011, followed by consolidation
+- The video game market experienced a major boom from 2005–2011, followed by consolidation
 
-Fewer releases after 2011 corresponded with higher average critic scores
+- Fewer releases after 2011 corresponded with higher average critic scores
 
-Action, Sports, Misc, and Shooter genres consistently dominate sales
+- Action, Sports, Misc, and Shooter genres consistently dominate sales
 
-Critic reviews matter far more than user reviews for predicting sales
+- Critic reviews matter far more than user reviews for predicting sales
 
-Nintendo platforms played a major role in shaping the peak years of the industry
+- Nintendo platforms played a major role in shaping the peak years of the industry
 
 ### 🛠️ Tools & Libraries
 
