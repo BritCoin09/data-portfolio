@@ -156,13 +156,6 @@ For each user per month:
 
 - Monitor Surf overage behavior for churn risk
 
-### 📁 Project Structure
-
-Project 3 Folder/
-- [Project 3.ipynb](https://github.com/BritCoin09/data-portfolio/blob/main/Project%203%20Folder/Project%203.ipynb)
-- [README.md](https://github.com/BritCoin09/data-portfolio/blob/main/Project%203%20Folder/README.md)
-
-
 ### 🧠 Skills Demonstrated
 
 - Data cleaning & validation
@@ -178,3 +171,10 @@ Project 3 Folder/
 - Business insights & recommendations
 
 - Visualization (Matplotlib, Seaborn)
+
+- ### 📁 Project Structure
+
+Project 3 Folder/
+- [Project 3.ipynb](https://github.com/BritCoin09/data-portfolio/blob/main/Project%203%20Folder/Project%203.ipynb)
+- [README.md](https://github.com/BritCoin09/data-portfolio/blob/main/Project%203%20Folder/README.md)
+
