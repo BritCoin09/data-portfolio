@@ -1,12 +1,12 @@
 # 🛢️ OilyGiant — Oil Reserve Prediction & Investment Risk Analysis
 
-Project 9 — Linear Regression, Profit Modeling, and Bootstrapping
+## Linear Regression, Profit Modeling, and Bootstrapping
 
-📌 Project Overview
+### 📌 Project Overview
 
 OilyGiant is preparing a major $100M investment to drill 200 new oil wells. The goal of this project is to determine which of three regions offers the safest and most profitable opportunity — while staying within the company’s strict 2.5% maximum risk‑of‑loss threshold.
 
-Using geological data from Regions 0, 1, and 2, I:
+#### Using geological data from Regions 0, 1, and 2, I:
 
 - Explored and validated the datasets
 
@@ -22,7 +22,7 @@ Using geological data from Regions 0, 1, and 2, I:
   
 
 
-🧠 Business Constraints
+### 🧠 Business Constraints
 
 | Requirement               | Value                |
 |---------------------------|----------------------|
@@ -33,9 +33,9 @@ Using geological data from Regions 0, 1, and 2, I:
 | Max acceptable risk       | 2.5%                 |
 
 
-🔍 Data Exploration
+### 🔍 Data Exploration
 
-Each dataset contains:
+#### Each dataset contains:
 
 - 100,000 wells
 
@@ -47,9 +47,9 @@ Duplicate well IDs were found in all regions, but the measurements differed sign
 To preserve valuable information, all rows were retained.
 
 
-🤖 Modeling Approach
+### 🤖 Modeling Approach
 
-Linear Regression was chosen because:
+#### Linear Regression was chosen because:
 
 - It was required by the project
 
@@ -62,7 +62,7 @@ Linear Regression was chosen because:
 - Each region was split into 75% train / 25% validation.
   
 
-📈 Model Performance (RMSE)
+### 📈 Model Performance (RMSE)
 
 | Region | RMSE  | Interpretation              |
 |--------|-------|-----------------------------|
@@ -73,9 +73,9 @@ Linear Regression was chosen because:
 Region 1’s model is dramatically more reliable than the others.
 
 
-💰 Profit Estimation
+### 💰 Profit Estimation
 
-For each region:
+#### For each region:
 
 - Select top 200 wells by predicted reserves
 
@@ -83,10 +83,10 @@ For each region:
 
 - Compute profit:
 
-💲 Profit = (Total Reserves × 4500) − 100,000,000
+**💲 Profit = (Total Reserves × 4500) − 100,000,000**
 
 
-📊 Profit Results
+### 📊 Profit Results
 
 | Region | Profit    |
 |--------|-----------|
@@ -97,23 +97,26 @@ For each region:
 Region 0 has the highest profit — but profit alone is not enough.
 We must evaluate risk.
 
-🎲 Bootstrapping Risk Analysis
+### 🎲 Bootstrapping Risk Analysis
+
 A reusable bootstrap_profit() function was implemented to avoid code duplication.
 Each region was simulated 1,000 times using random sampling.
 
-⭐ Bootstrapping Results
+#### ⭐ Bootstrapping Results
+
 | Region | Avg Profit | 95% CI                  | Risk of Loss |
 |--------|------------|--------------------------|---------------|
 | 0      | $3.99M     | –$1.10M to $8.97M        | 6.0% ❌        |
 | 1      | $4.52M     | $0.62M to $8.45M         | 1.5% ✅        |
 | 2      | $3.75M     | –$1.45M to $8.88M        | 8.0% ❌        |
 
-Region 1 is the only region below the 2.5% risk threshold.
+**Region 1 is the only region below the 2.5% risk threshold.**
 
-🏆 Final Recommendation
+### 🏆 Final Recommendation
+
 Region 1 is the recommended region for oil well development.
 
-It provides:
+#### It provides:
 
 - The most accurate predictions (RMSE 0.89)
 
@@ -125,11 +128,12 @@ It provides:
 
 Region 1 is the only region that meets OilyGiant’s strict 2.5% maximum risk‑of‑loss requirement, confirming that it satisfies both the profitability and risk criteria for investment.
 
-💬 Summary
+### 💬 Summary
+
 Region 1 is the safest, most stable, and most financially responsible choice for OilyGiant’s $100M investment.
 This project demonstrates end‑to‑end data science workflow: exploration, modeling, evaluation, risk analysis, and business‑driven decision‑making.
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 - Python
 
@@ -143,16 +147,7 @@ This project demonstrates end‑to‑end data science workflow: exploration, mod
 
 - Bootstrapping (custom implementation)
 
-📁 Project Structure
+### 📁 Project Structure
 
-- [Project 9.ipynb](Project%209.ipynb) — Full analysis, modeling, and bootstrapping  
-- [geo_data_0.csv](./geo_data_0.csv) — Region 0 dataset  
-- [geo_data_1.csv](./geo_data_1.csv) — Region 1 dataset  
-- [geo_data_2.csv](./geo_data_2.csv) — Region 2 dataset  
-- [README.md](./README.md) — Project documentation  
-
-             
-
-
-
-
+- [Project 9.ipynb](Project%209.ipynb) — Full analysis, modeling, and bootstrapping 
+- [README.md](./README.md) — Project documentation

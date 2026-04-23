@@ -130,6 +130,5 @@ To maintain accuracy, the model should be retrained regularly as new data become
 
 📁 Files in This Folder
 
-- [Project 13.ipynb](./Project%2013.ipynb) — Final notebook with full analysis  
-- [taxi.csv](./taxi.csv) — Dataset  
+- [Project 13.ipynb](./Project%2013.ipynb) — Final notebook with full analysis
 - [README.md](./README.md) — Project documentation  
