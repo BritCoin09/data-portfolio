@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Science Portfolio — Britny Chambers
 
 Welcome to my project portfolio!  
@@ -33,7 +34,5 @@ Business Impact: Identified high‑risk customers and key churn drivers to suppo
 ### 🟣 Project 14 — IMDB Sentiment Classification (NLP) 2026
 Classifying IMDB movie reviews as positive or negative using NLP preprocessing, TF‑IDF vectorization, and multiple machine‑learning models.  
 **Final F1 Score:** 0.88 (Logistic Regression)
-
-🔗 Project Folder: [Project 14 Folder](./Project%2014%20Folder)
 
 
