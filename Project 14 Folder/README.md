@@ -2,7 +2,7 @@
 
 ## Machine Learning for Texts: Classifying Movie Reviews
 
-📌 ### Project Overview
+### 📌 Project Overview
 
 This project builds a machine‑learning model to classify IMDB movie reviews as positive or negative.
 The Film Junky Union wants to automatically detect negative reviews to support content moderation and improve user experience.
@@ -13,7 +13,7 @@ The dataset includes labeled reviews already split into train and test sets.
 
 Achieve an F1 score ≥ 0.85 on the test set using NLP preprocessing and multiple ML models.
 
-🧠 ### Key Skills Demonstrated
+### 🧠 Key Skills Demonstrated
 
 - Natural Language Processing (NLP)
 
@@ -29,15 +29,7 @@ Achieve an F1 score ≥ 0.85 on the test set using NLP preprocessing and multipl
 
 - Pipeline thinking & real‑world ML workflow
 
-📂 ### Project Structure
-
-- imdb_sentiment.ipynb — full notebook with EDA, preprocessing, modeling, and evaluation
-
-- data/ — IMDB reviews dataset (train/test split provided)
-
-- README.md — project summary
-
-🔍 ### Exploratory Data Analysis (EDA)
+### 🔍 Exploratory Data Analysis (EDA)
 
 **Before modeling, I explored:**
 
@@ -51,7 +43,7 @@ Achieve an F1 score ≥ 0.85 on the test set using NLP preprocessing and multipl
 
 This helped validate data quality and understand potential modeling challenges.
 
-🛠️ ### Preprocessing
+### 🛠️ Preprocessing
 
 **All reviews were normalized:**
 
@@ -67,7 +59,7 @@ This helped validate data quality and understand potential modeling challenges.
 
 - Vectorization used TF‑IDF with up to 50,000 features.
 
-🤖 ### Models Tested
+### 🤖 Models Tested
 
 - Model 1 — TF‑IDF + Logistic Regression (NLTK stopwords)
 F1 (test): 0.88  
@@ -86,7 +78,7 @@ F1 (test): 0.87
 ROC AUC: 0.94  
 (High overfitting)
 
-📊 ### Model Comparison
+### 📊 Model Comparison
 
 Model	Preprocessing	Algorithm	Test F1	ROC AUC	Overfitting
 Model 1	NLTK stopwords	Logistic Regression	0.88	0.95	Low
@@ -97,7 +89,7 @@ Model 4	spaCy lemmatization	LightGBM	0.87	0.94	High
 
 **Best choice: Logistic Regression (Model 1–3)**
 
-🔎 ### Error Analysis
+### 🔎 Error Analysis
 
 **I examined misclassified reviews to understand model behavior:**
 
@@ -107,7 +99,7 @@ Model 4	spaCy lemmatization	LightGBM	0.87	0.94	High
 
 This helps identify future improvements (e.g., sentiment lexicons, transformers).
 
-🧩 ### Feature Importance (LightGBM)
+### 🧩 Feature Importance (LightGBM)
 
 **Top sentiment‑driving words included:**
 
@@ -117,7 +109,7 @@ This helps identify future improvements (e.g., sentiment lexicons, transformers)
 
 These align with human intuition and validate model interpretability.
 
-🧪 ### Testing on Custom Reviews
+### 🧪 Testing on Custom Reviews
 
 I ran predictions on 10 manually written reviews to evaluate real‑world behavior.
 
@@ -133,7 +125,7 @@ I ran predictions on 10 manually written reviews to evaluate real‑world behavi
 
 This demonstrates strong generalization.
 
-✅ ### Final Result
+### ✅ Final Result
 
 **The final model achieved:**
 
@@ -144,3 +136,11 @@ ROC AUC: 0.95
 APS: 0.95
 
 This performs reliably on unseen text.
+
+### 📂 Project Structure
+
+- imdb_sentiment.ipynb — full notebook with EDA, preprocessing, modeling, and evaluation
+
+- data/ — IMDB reviews dataset (train/test split provided)
+
+- README.md — project summary
