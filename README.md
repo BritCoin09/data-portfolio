@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Data Science Portfolio — Britny Chambers
 
 Welcome to my project portfolio!  
