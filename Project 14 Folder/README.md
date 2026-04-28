@@ -139,8 +139,6 @@ This performs reliably on unseen text.
 
 ### 📂 Project Structure
 
-- imdb_sentiment.ipynb — full notebook with EDA, preprocessing, modeling, and evaluation
+- [Project14.ipynb](https://github.com/BritCoin09/data-portfolio/blob/main/Project%2014%20Folder/Project14.ipynb)
+- [README.md](https://github.com/BritCoin09/data-portfolio/blob/main/Project%2014%20Folder/README.md)
 
-- data/ — IMDB reviews dataset (train/test split provided)
-
-- README.md — project summary
