@@ -1,32 +1,146 @@
-# Data Science Portfolio — Britny Chambers
+# Project 14 — IMDB Sentiment Classification (NLP)
 
-Welcome to my project portfolio!  
-This repository contains all of my TripleTen data science projects, organized clearly so you can explore my work.
+## Machine Learning for Texts: Classifying Movie Reviews
 
-## 📁 Projects
+📌 ### Project Overview
 
-### 🟣 Project 13 — Time Series Forecasting (Sweet Lift Taxi)
-Forecasting hourly taxi demand using lag features, rolling statistics, and multiple ML models.  
-**Final RMSE:** 36.29 (Linear Regression)  
+This project builds a machine‑learning model to classify IMDB movie reviews as positive or negative.
+The Film Junky Union wants to automatically detect negative reviews to support content moderation and improve user experience.
 
-🔗 **Project Folder:** [Project 13 Folder](./Project%2013%20Folder)
+The dataset includes labeled reviews already split into train and test sets.
 
-### 🟣 Project 9 — Oil Reserve Prediction & Investment Risk Analysis (OilyGiant)
-Predicting oil well reserves using linear regression, estimating profit, and performing a 1,000‑iteration bootstrapping risk analysis to identify the safest region for a $100M investment.
-**Final Recommendation:** Region 1 — lowest risk (1.5%) and most stable profit.
+**Goal:**
 
-🔗 **Project Folder:** [Project 9 Folder](./Project%209%20Folder)
+Achieve an F1 score ≥ 0.85 on the test set using NLP preprocessing and multiple ML models.
 
-### 🟣 Project 5 — Video Game Sales Analysis
-Analyzing global video game sales to identify patterns in platform performance, genre popularity, regional preferences, and the impact of critic/user reviews on commercial success.
-Key Insight: Critic scores show a moderate positive relationship with sales, while user scores show almost none.
+🧠 ### Key Skills Demonstrated
 
-🔗 Project Folder: [Project 5 Folder](./Project%205%20Folder)
+- Natural Language Processing (NLP)
 
-### 🟣 Project 3 — Customer Churn Prediction (Megaline Telecom)
-Predicting customer churn for a telecom company using classification models, feature engineering, and imbalanced data techniques.
-**Final Model:** Random Forest (best performance)
-Business Impact: Identified high‑risk customers and key churn drivers to support targeted retention strategies.
+- Text normalization & preprocessing
 
-🔗 Project Folder: [Project 3 Folder](./Project%203%20Folder)
+- TF‑IDF vectorization (unigrams + bigrams)
 
+- Logistic Regression & LightGBM
+
+- Model evaluation (F1, ROC AUC, PRC, APS)
+
+- Error analysis & feature importance
+
+- Pipeline thinking & real‑world ML workflow
+
+📂 ### Project Structure
+
+- imdb_sentiment.ipynb — full notebook with EDA, preprocessing, modeling, and evaluation
+
+- data/ — IMDB reviews dataset (train/test split provided)
+
+- README.md — project summary
+
+🔍 ### Exploratory Data Analysis (EDA)
+
+**Before modeling, I explored:**
+
+- Movie release trends over time
+
+- Positive vs. negative review distribution
+
+- Review count anomalies (e.g., spike at exactly 30 reviews)
+
+- Class balance (dataset is nearly 50/50)
+
+This helped validate data quality and understand potential modeling challenges.
+
+🛠️ ### Preprocessing
+
+**All reviews were normalized:**
+
+- Lowercasing
+
+- Removing punctuation & digits
+
+- Collapsing extra spaces
+
+- Optional: stopword removal (NLTK)
+
+- Optional: lemmatization (spaCy)
+
+- Vectorization used TF‑IDF with up to 50,000 features.
+
+🤖 ### Models Tested
+
+- Model 1 — TF‑IDF + Logistic Regression (NLTK stopwords)
+F1 (test): 0.88  
+ROC AUC: 0.95
+
+- Model 2 — TF‑IDF + Logistic Regression (no stopwords)
+F1 (test): 0.88  
+ROC AUC: 0.95
+
+- Model 3 — spaCy Lemmatization + TF‑IDF + Logistic Regression
+F1 (test): 0.88  
+ROC AUC: 0.95
+
+- Model 4 — spaCy Lemmatization + TF‑IDF + LightGBM
+F1 (test): 0.87  
+ROC AUC: 0.94  
+(High overfitting)
+
+📊 ### Model Comparison
+
+Model	Preprocessing	Algorithm	Test F1	ROC AUC	Overfitting
+Model 1	NLTK stopwords	Logistic Regression	0.88	0.95	Low
+Model 2	Basic TF‑IDF	Logistic Regression	0.88	0.95	Low
+Model 3	spaCy lemmatization	Logistic Regression	0.88	0.95	Low
+Model 4	spaCy lemmatization	LightGBM	0.87	0.94	High
+
+
+**Best choice: Logistic Regression (Model 1–3)**
+
+🔎 ### Error Analysis
+
+**I examined misclassified reviews to understand model behavior:**
+
+- False positives: overly enthusiastic language in otherwise negative reviews
+
+- False negatives: subtle positive sentiment or mixed reviews
+
+This helps identify future improvements (e.g., sentiment lexicons, transformers).
+
+🧩 ### Feature Importance (LightGBM)
+
+**Top sentiment‑driving words included:**
+
+- good, great, excellent, wonderful
+
+- bad, awful, boring, waste
+
+These align with human intuition and validate model interpretability.
+
+🧪 ### Testing on Custom Reviews
+
+I ran predictions on 10 manually written reviews to evaluate real‑world behavior.
+
+**The model correctly identified:**
+
+- sarcasm
+
+- boredom
+
+- enthusiasm
+
+- mixed sentiment
+
+This demonstrates strong generalization.
+
+✅ ### Final Result
+
+**The final model achieved:**
+
+F1 Score: 0.88
+
+ROC AUC: 0.95
+
+APS: 0.95
+
+This performs reliably on unseen text.
